@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref type="model" name="Financement_immo.mod">
+			</ref>
+			<ref type="setting" name="Financement_immo.ops">
+			</ref>
+			<ref type="data" name="Financement_immo.dat">
+			</ref>
+		</config>
+		<config default="false" name="Configuration2" category="opl">
+			<ref type="data" name="Financement_immo.dat">
+			</ref>
+			<ref type="setting" name="Financement_immo.ops">
+			</ref>
+			<ref type="model" name="Financement_immo_ech_cst.mod">
+			</ref>
+		</config>
+		<config default="false" name="Configuration3" category="opl">
+			<ref type="model" name="Financement_immo_deux_prets.mod">
+			</ref>
+			<ref type="setting" name="Financement_immo.ops">
+			</ref>
+			<ref type="data" name="Financement_immo_deux_prets.dat">
+			</ref>
+		</config>
+		<config default="false" name="Configuration4" category="opl">
+			<ref type="data" name="Financement_immo_paliers.dat">
+			</ref>
+			<ref type="model" name="Finacement_immo_paliers.mod">
+			</ref>
+			<ref type="setting" name="Financement_immo.ops">
+			</ref>
+		</config>
+		<config default="false" name="Configuration5" category="opl">
+			<ref type="model" name="Finacement_immo_paliers2.mod">
+			</ref>
+			<ref type="data" name="Financement_immo_paliers.dat">
+			</ref>
+			<ref type="setting" name="Financement_immo.ops">
+			</ref>
+		</config>
+		<config default="false" name="Configuration6" category="opl">
+			<ref type="model" name="Finacement_immo_complement.mod">
+			</ref>
+			<ref type="data" name="Financement_immo_complement.dat">
+			</ref>
+			<ref type="setting" name="Financement_immo.ops">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

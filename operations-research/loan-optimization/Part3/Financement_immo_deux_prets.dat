@@ -1,0 +1,28 @@
+/*********************************************
+ * OPL 12.5.1.0 Data
+ * Author: g.lever
+ * All rights reserved
+ * Creation Date: Nov 14, 2014 at 1:35:52 PM
+ *********************************************/
+
+ 
+ // Caracteristiques du plan de financement
+montantTotal = 100000;
+Ej = 800;
+
+// Durees possibles
+nbDurees = 4;
+nbTaux = 4;
+
+nbPrets = 2;
+
+// Duree des prets en mois
+nbMois = [84 120 144 180];
+
+// Caracteristiques des prets
+Taux = [[3.55 3.7 3.8 3.9] [3.05 3.2 3.3 3.4]] ;
+
+// TauxB = [3.05 3.2 3.3 3.4] ;
+
+// Capital mini amorti
+cMin = 1;
